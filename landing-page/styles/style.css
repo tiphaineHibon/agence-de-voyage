@@ -1,0 +1,94 @@
+body {
+    background-color:#ECD6AF;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+h1 {
+    font-family: "sign painter","Comic Sans Ms", cursive;
+    color:black;
+    border-style: ridge;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-color:#efc18a;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0.3rem 0.3rem 0.3rem #7777;
+    letter-spacing: 0.2rem;
+    background-color: #efc18a;
+    text-align: center;
+}
+
+/*Mise en forme des titres de parties*/
+h2,h3,h4{
+     font-family: "sign painter","Comic Sans Ms", cursive;
+    color: saddlebrown;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+/*Pour centrer l'image*/
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+p{
+    text-align: justify;
+    font-family: "sign painter","Comic Sans Ms", cursive;
+}
+
+/*ce qu'il faut mettre en gras*/
+p.gras{
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "sign painter","Comic Sans Ms", cursive;
+    
+}
+
+p.centre{
+    text-align: center;
+    font-family: "sign painter","Comic Sans Ms", cursive;
+}
+
+/*Pour le menu*/
+    
+nav {
+    display: flex;
+    flex-wrap:wrap;
+    font-family: "sign painter","Comic Sans Ms", cursive;
+}
+a{
+    color:black;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    background-color:burlywood;
+    text-align:left;
+    text-decoration: none;
+    font-family: "Galvji", sans-serif;
+    padding: auto;
+    margin: auto;
+    
+}
+
+/*Pour une couleur quand on passe sur le bouton*/
+a:hover{
+    background-color:sandybrown;
+}
+
+
+ul{
+    font-family:"sign painter","Comic Sans Ms", cursive;
+}
